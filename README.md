@@ -14,7 +14,7 @@ Logs: /usr/local/var/lib/kafka-logs
 
 # Installation, start and stop
 
-# this will install java 1.8, zookeeper, and kafka
+# Installing using Brew
 brew install kafka
 
 # Start ZooKeeper and Kafka with brew
