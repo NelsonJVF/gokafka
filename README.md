@@ -14,11 +14,11 @@ Logs: /usr/local/var/lib/kafka-logs
 # this will install java 1.8, zookeeper, and kafka
 brew install kafka
 
-# this will run ZK and kafka as services
+# Start ZooKeeper and Kafka with brew
 brew services start zookeeper
 brew services start kafka
 
-# this will stop kafka and zookeeper
+# Stop kafka and zookeeper with brew
 brew services stop kafka
 brew services stop zookeeper
 
